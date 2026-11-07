@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">BekalKu</string>
+    <string name="app_full_title">BekalKu: Aplikasi Perencanaan dan Pengelolaan Menu Bekal Harian Berbasis Android</string>
+    <string name="tagline">Rencanakan bekal harianmu dengan tenang</string>
+
+    <!-- Umum -->
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="cd_back">Kembali</string>
+    <string name="cd_logo">Logo BekalKu</string>
+    <string name="cd_toggle_packed">Tandai sudah dibawa</string>
+    <string name="cd_photo">Foto menu</string>
+    <string name="cd_reminder">Pengingat</string>
+    <string name="cd_add_menu">Tambah menu</string>
+    <string name="cd_state_icon">Ikon status</string>
+    <string name="meta_format">%1$s • %2$d mnt • %3$d kkal</string>
+    <string name="kcal_format">%1$d kkal</string>
+    <string name="min_format">%1$d mnt</string>
+    <string name="ratio_format">%1$d/%2$d</string>
+    <string name="time_format">%1$02d:%2$02d</string>
+
+    <!-- Kategori & hari -->
+    <string name="cat_breakfast">Sarapan</string>
+    <string name="cat_lunch">Makan Siang</string>
+    <string name="cat_dinner">Makan Malam</string>
+    <string name="cat_snack">Camilan</string>
+    <string-array name="categories">
+        <item>@string/cat_breakfast</item>
+        <item>@string/cat_lunch</item>
+        <item>@string/cat_dinner</item>
+        <item>@string/cat_snack</item>
+    </string-array>
+    <string-array name="days">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Sen</item>
+        <item>Sel</item>
+        <item>Rab</item>
+        <item>Kam</item>
+        <item>Jum</item>
+        <item>Sab</item>
+        <item>Min</item>
+    </string-array>
+    <string name="chip_all">Semua</string>
+
+    <!-- Login & Registrasi -->
+    <string name="title_login">Masuk</string>
+    <string name="subtitle_login">Selamat datang kembali! Masuk untuk melanjutkan.</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Kata sandi</string>
+    <string name="btn_login">Masuk</string>
+    <string name="no_account">Belum punya akun?</string>
+    <string name="link_register">Daftar</string>
+    <string name="title_register">Buat Akun</string>
+    <string name="subtitle_register">Daftar untuk mulai merencanakan menu bekalmu.</string>
+    <string name="hint_name">Nama lengkap</string>
+    <string name="hint_confirm_password">Konfirmasi kata sandi</string>
+    <string name="btn_register">Daftar</string>
+    <string name="have_account">Sudah punya akun?</string>
+    <string name="link_login">Masuk</string>
+
+    <!-- Error validasi -->
+    <string name="error_name_empty">Nama tidak boleh kosong</string>
+    <string name="error_name_short">Nama minimal 3 karakter</string>
+    <string name="error_email_empty">Email tidak boleh kosong</string>
+    <string name="error_email_invalid">Format email tidak valid</string>
+    <string name="error_password_empty">Kata sandi tidak boleh kosong</string>
+    <string name="error_password_short">Kata sandi minimal 6 karakter</string>
+    <string name="error_confirm_mismatch">Konfirmasi kata sandi tidak sama</string>
+    <string name="error_login_failed">Email atau kata sandi salah. Periksa kembali lalu coba lagi.</string>
+    <string name="error_email_taken">Email sudah terdaftar. Gunakan email lain atau masuk.</string>
+    <string name="error_generic">Terjadi kesalahan. Silakan coba lagi.</string>
+    <string name="error_load">Gagal memuat data menu. Periksa kembali lalu coba lagi.</string>
+
+    <!-- Navigasi -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_menu">Menu</string>
+    <string name="nav_planner">Rencana</string>
+    <string name="nav_stats">Statistik</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Beranda -->
+    <string name="greeting_format">Hai, %1$s!</string>
+    <string name="greeting_sub">Sudah siap bawa bekal hari ini?</string>
+    <string name="hero_tag_menu_format">%1$s • %2$s</string>
+    <string name="hero_tag_day_format">Hari ini • %1$s</string>
+    <string name="hero_empty_title">Belum ada bekal</string>
+    <string name="hero_empty_desc">Yuk rencanakan menu bekal untuk hari ini agar tidak bingung saat jam makan.</string>
+    <string name="hero_btn_plan">Rencanakan Bekal</string>
+    <string name="hero_btn_view">Lihat Detail</string>
+    <string name="progress_format">%1$d dari %2$d bekal sudah siap</string>
+    <string name="progress_none">Belum ada bekal untuk hari ini</string>
+    <string name="today_section">Menu Hari Ini</string>
+    <string name="empty_today_title">Belum ada menu hari ini</string>
+    <string name="empty_today_message">Tambahkan menu bekal untuk hari ini agar tidak lupa.</string>
+    <string name="category_empty_message">Tidak ada menu hari ini pada kategori ini.</string>
+
+    <!-- Tab Menu -->
+    <string name="menu_title_prefix">Mau bawa </string>
+    <string name="menu_title_highlight">bekal apa</string>
+    <string name="menu_title_suffix"> hari ini?</string>
+    <string name="hint_search">Cari nama menu atau bahan</string>
+    <string name="empty_title">Belum ada menu</string>
+    <string name="empty_message">Mulai tambahkan menu bekal pertamamu.</string>
+    <string name="empty_action">Tambah Menu</string>
+    <string name="search_empty_title">Menu tidak ditemukan</string>
+    <string name="search_empty_message">Coba kata kunci atau kategori lain.</string>
+    <string name="error_title">Oops, ada masalah</string>
+
+    <!-- Tab Rencana -->
+    <string name="planner_title">Rencana Mingguan</string>
+    <string name="planner_subtitle">Atur menu bekal untuk setiap hari</string>
+    <string name="planner_summary_format">%1$d menu • %2$d kkal</string>
+    <string name="day_empty_title">Belum ada rencana</string>
+    <string name="day_empty_message">Belum ada menu bekal untuk hari %1$s.</string>
+
+    <!-- Tab Statistik -->
+    <string name="stats_title">Statistik Bekal</string>
+    <string name="stats_subtitle">Ringkasan perencanaan menu bekalmu</string>
+    <string name="coverage_title">Hari Terencana</string>
+    <string name="coverage_desc">hari dalam seminggu sudah punya menu bekal</string>
+    <string name="coverage_format">%1$d/7</string>
+    <string name="stat_total">Total menu</string>
+    <string name="stat_packed">Sudah dibawa</string>
+    <string name="stat_calories">Total kalori</string>
+    <string name="stat_prep">Rata-rata persiapan</string>
+    <string name="per_category">Per kategori</string>
+
+    <!-- Tab Profil -->
+    <string name="profile_title">Profil</string>
+    <string name="reminder_title">Pengingat Bekal Harian</string>
+    <string name="reminder_desc">Dapatkan notifikasi agar tidak lupa menyiapkan bekal.</string>
+    <string name="reminder_time_label">Waktu pengingat</string>
+    <string name="pick_time_title">Pilih waktu pengingat</string>
+    <string name="reminder_on">Pengingat aktif setiap hari pukul %1$s</string>
+    <string name="reminder_off">Pengingat dimatikan</string>
+    <string name="permission_denied">Izin notifikasi ditolak, pengingat tidak dapat diaktifkan.</string>
+    <string name="about_title">Tentang Aplikasi</string>
+    <string name="about_desc">BekalKu membantu merencanakan dan mengelola menu bekal harian.\nDibuat oleh Muhammad Raihann Azhari (240170129)</string>
+    <string name="version_format">Versi %1$s</string>
+    <string name="btn_logout">Keluar</string>
+    <string name="logout_title">Keluar dari akun?</string>
+    <string name="logout_message">Kamu perlu masuk lagi untuk mengakses menu bekalmu.</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Detail Bekal</string>
+    <string name="label_day">Hari</string>
+    <string name="label_calories">Kalori</string>
+    <string name="label_prep">Persiapan</string>
+    <string name="label_ingredients">Bahan-bahan</string>
+    <string name="label_notes">Catatan</string>
+    <string name="status_packed">Sudah dibawa</string>
+    <string name="status_not_packed">Belum dibawa</string>
+    <string name="mark_packed">Tandai dibawa</string>
+    <string name="mark_unpacked">Batalkan tanda</string>
+    <string name="no_notes">Tidak ada catatan</string>
+    <string name="delete_title">Hapus menu?</string>
+    <string name="delete_message">Menu %1$s akan dihapus permanen.</string>
+    <string name="deleted_toast">Menu dihapus</string>
+    <string name="not_found">Menu tidak ditemukan</string>
+    <string name="cd_delete">Hapus menu</string>
+    <string name="cd_edit">Edit menu</string>
+
+    <!-- Form -->
+    <string name="form_add_title">Tambah Menu Bekal</string>
+    <string name="form_edit_title">Edit Menu Bekal</string>
+    <string name="photo_section">Foto menu (opsional)</string>
+    <string name="btn_camera">Kamera</string>
+    <string name="btn_gallery">Galeri</string>
+    <string name="btn_remove_photo">Hapus foto</string>
+    <string name="hint_menu_name">Nama menu</string>
+    <string name="hint_category">Kategori</string>
+    <string name="hint_day">Hari</string>
+    <string name="hint_ingredients">Bahan-bahan (satu per baris)</string>
+    <string name="hint_calories">Kalori (kkal)</string>
+    <string name="hint_prep">Waktu persiapan (menit)</string>
+    <string name="hint_notes">Catatan (opsional)</string>
+    <string name="btn_save">Simpan Menu</string>
+    <string name="saved_toast">Menu tersimpan</string>
+    <string name="error_menu_name_empty">Nama menu tidak boleh kosong</string>
+    <string name="error_menu_name_short">Nama menu minimal 3 karakter</string>
+    <string name="error_ingredients_empty">Bahan-bahan tidak boleh kosong</string>
+    <string name="error_calories_empty">Kalori tidak boleh kosong</string>
+    <string name="error_calories_range">Kalori harus berupa angka 0 sampai 5000</string>
+    <string name="error_prep_empty">Waktu persiapan tidak boleh kosong</string>
+    <string name="error_prep_range">Waktu persiapan harus 1 sampai 480 menit</string>
+    <string name="error_camera_unavailable">Aplikasi kamera tidak tersedia di perangkat ini</string>
+    <string name="error_photo_failed">Gagal memproses foto. Coba pilih foto lain.</string>
+
+    <!-- Notifikasi -->
+    <string name="channel_name">Pengingat Bekal</string>
+    <string name="channel_desc">Pengingat harian untuk menyiapkan bekal</string>
+    <string name="notif_title">Waktunya siapkan bekal!</string>
+    <string name="notif_text_menu">Hari ini: %1$s</string>
+    <string name="notif_text_empty">Belum ada menu untuk hari ini. Yuk rencanakan sekarang.</string>
+
+    <!-- Jaringan & Inspirasi (API eksternal) -->
+    <string name="error_network">Tidak dapat terhubung ke internet. Periksa koneksimu lalu coba lagi.</string>
+    <string name="error_server">Layanan sedang bermasalah. Coba lagi beberapa saat lagi.</string>
+    <string name="cd_inspire">Inspirasi menu</string>
+    <string name="inspiration_title">Inspirasi Bekal</string>
+    <string name="inspiration_subtitle">Ide menu acak dari TheMealDB</string>
+    <string name="btn_shuffle">Acak Lagi</string>
+    <string name="btn_use">Pakai Sebagai Menu</string>
+
+    <!-- Tampilan / tema -->
+    <string name="theme_title">Tampilan</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+</resources>
